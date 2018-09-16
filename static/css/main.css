@@ -1,0 +1,90 @@
+
+.red{
+  color:white;
+  background-color: red;
+  font-size: 60px;
+}
+
+.brand img{
+  width:35%;
+}
+
+
+.card-body p{
+  padding-top: 50px;
+}
+
+#text1{
+  padding-top: 100px;
+}
+
+
+ p{
+  font-weight: 400;
+}
+
+.vision{
+  padding: 1% 5% 5% 5%;
+}
+
+.how-section img {
+  height:10px;
+  width:15px;
+  padding-left: 100px;
+}
+
+.about{
+  padding-bottom: 5%;
+}
+
+.faq{
+  background-color: #DCDCDC;
+  padding: 200px;
+}
+
+.faq img{
+  height:100px;
+  padding-left: 10%;
+}
+
+
+.padded{
+  padding: 5% 0% 3% 0%;
+}
+
+.faq-col2-padded{
+  padding-top: 3%;
+}
+
+.testimony{
+  padding-bottom: 7%;
+}
+
+.testimony img{
+  height:auto;
+  width:60%;
+}
+
+.selfie{
+  padding-left: 8%;
+}
+
+.selfie img{
+  height: 10%;
+}
+
+.blockquote-secondary{
+  padding:20%;
+}
+
+
+.col-block{
+  padding-top: 15%;
+}
+
+.img-text{
+  width: 100%;
+   height: 400px;
+   background-size: cover;
+   position: relative;
+}
