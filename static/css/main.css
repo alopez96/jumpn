@@ -39,7 +39,7 @@
 
 .faq{
   background-color: #DCDCDC;
-  padding: 200px;
+  padding: 50px;
 }
 
 .faq img{
@@ -91,7 +91,18 @@
 
 
 .test i{
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+
+
+    text-align:center;
+}
+
+
+td{
+  text-align:center;
+
+}
+
+.icon{
+    text-align: center;
 }
