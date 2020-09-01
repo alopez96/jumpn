@@ -101,12 +101,11 @@ td{
 
 .how-row{
   display: flex;
-  flex-direction: row;
 }
 
 .how-text{
   text-align: center;
-  width: 25vw;
+  margin: 1.5rem;
 }
 
 @media (max-width: 480px) {
