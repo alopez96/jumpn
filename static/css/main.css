@@ -67,11 +67,8 @@ p{
   padding-top: 15%;
 }
 
-.img-text{
-  width: 100%;
-   height: 400px;
-   background-size: cover;
-   position: relative;
+.img-text p{
+  font-weight: 500;
 }
 
 .test i{
@@ -117,10 +114,6 @@ td{
     display: flex;
     flex-direction: column;
     text-align:center;
-  }
-
-  .how-text{
-    width: 100vw;
   }
   
 }
