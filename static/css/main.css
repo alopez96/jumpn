@@ -40,6 +40,9 @@ p{
   padding-bottom: 7%;
 }
 
+.testimony h2{
+  margin-left: 2rem;
+}
 .testimony img{
   height:auto;
   width:60%;
@@ -87,8 +90,7 @@ td{
 }
 
 .about-text{
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin: 0rem 2rem 0rem 2rem;
 }
 
 .how-row{
@@ -102,7 +104,7 @@ td{
 
 @media (max-width: 480px) {
   .section-about-us{
-    margin: 2rem;
+    margin: 5rem 2rem 2rem 2rem;
   }
 
   .how-row{
@@ -110,5 +112,25 @@ td{
     flex-direction: column;
     text-align:center;
   }
+
+  .how-text{
+    text-align: center;
+    margin: 0rem;
+  }
+
+  .row{
+    text-align: center;
+  }
   
+  .testimony{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: left;
+  }
+
+  .about-text{
+    text-align: left;
+    margin: 2rem 1rem 2rem 1rem;
+
+  }
 }
