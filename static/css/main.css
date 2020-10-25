@@ -1,9 +1,3 @@
-.red{
-  color:white;
-  background-color: red;
-  font-size: 60px;
-}
-
 .brand img{
   width:35%;
 }
@@ -83,14 +77,8 @@ td{
     text-align: center;
 }
 
-
-/* about us section */
 .section-about-us{
   margin: 5rem;
-}
-
-.about-text{
-  margin: 0rem 2rem 2rem 2rem;
 }
 
 .how-row{
@@ -102,10 +90,9 @@ td{
   margin: 1.5rem;
 }
 
+
 @media (max-width: 480px) {
-  .section-about-us{
-    margin: 5rem 2rem 2rem 2rem;
-  }
+  .section-about-us{ margin: 5rem 2rem 2rem 2rem; }
 
   .how-row{
     display: flex;
@@ -113,35 +100,15 @@ td{
     text-align:center;
   }
 
-  .how-text{
-    text-align: center;
-    margin: 0rem;
-  }
+  .how-text{ text-align: center; margin: 0rem; }
 
-  .row{
-    text-align: center;
-  }
+  .row{ text-align: center; }
   
-  .testimony{
-    margin-left: 2rem;
-    margin-right: 2rem;
-    text-align: left;
-  }
+  .testimony{ text-align: left; }
 
-  .about-text{
-    text-align: left;
-    margin: 2rem 1rem 2rem 1rem;
+  .title{ text-align: center; }
 
-  }
-  .title{
-    text-align: center;
-  }
-
-  .selfie{
-    margin-left: 0rem;
-  }
+  .selfie{ margin-left: 0rem; }
   
-  .selfie img{
-    height: 10%;
-  }
+  .selfie img{ height: 10%; }
 }
