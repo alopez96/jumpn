@@ -1,53 +1,62 @@
-.brand img{
-  width:35%;
+.wrapper{
+  margin: 0 100px;
 }
 
-#text1{
-  padding-top: 100px;
+.section{
+  margin: 100px;
+  min-height: 70vh;
 }
 
-p{
-  font-weight: 400;
+.section-header{
+  font-size: 40px;
+  color: rgb(211, 211, 211);
+  margin: 100px 0;
 }
 
-.how-section img {
-  height:10px;
-  width:15px;
-  padding-left: 100px;
+.section-about-text{
+  font-size: 1.1rem;
+  width: 90%;
+}
+
+.dark-section{
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+  min-height: 100vh;
+  padding: 120px 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.dark-section-header{
+  font-size: 40px;
+  color: rgb(92, 92, 92);
+  padding: 100px 0;
+}
+
+.container-img{
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.selfie{
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.testimonial-about-text{
+  width: 50%;
 }
 
 .faq{
   background-color: #DCDCDC;
   padding: 50px;
-}
-
-.faq img{
-  height:100px;
-  padding-left: 10%;
-}
-
-.padded{
-  padding: 5% 0% 3% 0%;
-}
-
-.testimony{
-  padding-bottom: 7%;
-}
-
-.testimony h2{
-  margin-left: 2rem;
-}
-.testimony img{
-  height:auto;
-  width:60%;
-}
-
-.selfie{
-  margin-left: 2rem;
-}
-
-.selfie img{
-  height: 10%;
 }
 
 .blockquote-secondary{
@@ -77,38 +86,8 @@ td{
     text-align: center;
 }
 
-.section-about-us{
-  margin: 5rem;
-}
-
-.how-row{
-  display: flex;
-}
-
-.how-text{
-  text-align: center;
-  margin: 1.5rem;
-}
-
 
 @media (max-width: 480px) {
-  .section-about-us{ margin: 5rem 2rem 2rem 2rem; }
-
-  .how-row{
-    display: flex;
-    flex-direction: column;
-    text-align:center;
-  }
-
-  .how-text{ text-align: center; margin: 0rem; }
 
   .row{ text-align: center; }
-  
-  .testimony{ text-align: left; }
-
-  .title{ text-align: center; }
-
-  .selfie{ margin-left: 0rem; }
-  
-  .selfie img{ height: 10%; }
 }
